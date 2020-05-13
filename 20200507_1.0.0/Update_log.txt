@@ -1,0 +1,14 @@
+-------2020-05-07-----------          CommitID:202005071
+1.开机报文增加解析字段
+  复位状态寄存器-ResetStatusRegister
+  异常标识-ExceptionIdentification
+  复位位置-ResetPosition
+  绝对无车门限-VehicleThreshold
+  绝对有车门限-CarfreeThreshold
+  检测门限等级-ThresholdGrade
+  雷达灵敏度-RadarSensitivity
+  RTC时间-rtcTime
+
+2.平台下发命令config时，ipadress输入格式变为：xxx.xxx.xxx.xxx 字符串形式输入
+3.ipadress支持输入-1 65535等数字
+4.新增终端校准，升级模式切换，RTC校准，设置IP，设置OTA升级服务地址等命令
